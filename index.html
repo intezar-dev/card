@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box {
+      min-width: 300px;
+      max-width: 400px;
+      height: 270px;
+      background-color: #fff;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: row;
+      padding-top: 10px;
+      margin: 10% auto;
+      border: 1px solid #909090;
+    }
+
+    .left_box {
+      width: 100px;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .left_text {
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .left_img {
+      width: 80px;
+      height: 80px;
+      border-radius: 15px;
+      padding-bottom: 10px;
+    }
+
+    .left_text_container {
+      width: 90%;
+      display: flex;
+      padding-top: 5px;
+      align-items: center;
+    }
+
+    .bar {
+      width: 4px;
+      height: 70%;
+      background-color: red;
+      margin-left: 5px;
+    }
+
+    .middle_box {
+      width: 180px;
+      height: 200px;
+      padding-left: 10px;
+    }
+
+    .img_inner_box {
+      width: 95%;
+      display: flex;
+      align-items: center;
+      padding-top: 5px;
+    }
+
+    .img_box {
+      width: 30px;
+      height: 30px;
+      background-color: #007fb4;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .middle_bottom_container {
+      display: flex;
+    }
+
+    .bottom_img {
+      width: 30px;
+      height: 30px;
+      background-color: #007fb4;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin-top: 15px;
+      margin-right: 2px;
+      cursor: pointer;
+    }
+
+    .right-box {
+      width: 100px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="left_box">
+      <img src="./img/l1.png" alt="" class="left_img" />
+      <p class="left_text">Add Your Contact</p>
+      <div class="left_text_container">
+        <i class="fa-sharp fa-regular fa-circle-check" style="margin-right: 4px"></i>
+        <p class="left_text">information to your phone</p>
+      </div>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="middle_box">
+      <p style="font-weight: 600">Imani Swell</p>
+      <p style="font-weight: 500">Chief Financial Officer Initech Inc</p>
+      <div style="padding-top: 10px">
+        <div class="img_inner_box">
+          <div class="img_box">
+            <img src="./img/b.png" alt="" width="20px" height="20px" />
+          </div>
+          <span style="font-weight: 500;">i-416-987-6543</span>
+        </div>
+        <div class="img_inner_box">
+          <div class="img_box">
+            <img src="./img/b.png" alt="" width="20px" height="20px" />
+          </div>
+          <span style="font-weight: 500;">is@initech.com</span>
+        </div>
+        <div class="img_inner_box">
+          <div class="img_box">
+            <img src="./img/b.png" alt="" width="20px" height="20px" />
+          </div>
+          <span style="font-weight: 500;">Initech.com</span>
+        </div>
+        <div class="img_inner_box">
+          <div
+            style="display: flex; flex-direction: row; justify-content: center; align-items: center; width: 50px; height: 30px; border-radius: 50%;  background-color: #007fb4;">
+            <img src="./img/b.png" alt="" width="20px" height="20px" />
+          </div>
+          <div style="margin-left: 10px; font-weight: 500;">
+            <span>234 Any Street</span>
+            <span style="font-size: 12px; font-weight: 500;">City,ProvinceL1L 2L2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle_bottom_container">
+        <div class="bottom_img">
+          <img src="img/i1.png" alt="" width="15px" height="15px" />
+        </div>
+        <div class="bottom_img">
+          <img src="img/i6.png" alt="" width="15px" height="15px" />
+        </div>
+        <div class="bottom_img">
+          <img src="img/i5.png" alt="" width="15px" height="15px" />
+        </div>
+        <div class="bottom_img">
+          <img src="img/i4.png" alt="" width="15px" height="15px" />
+        </div>
+        <div class="bottom_img">
+          <img src="img/i3.png" alt="" width="15px" height="15px" />
+        </div>
+        <div class="bottom_img">
+          <img src="img/i2.png" alt="" width="15px" height="15px" />
+        </div>
+      </div>
+    </div>
+    <div class="right-box">
+      <img src="img/r1.png" alt="" style="width: 70px; height: 70px;;">
+      <img src="img/r2.png" alt="" style="width: 70px; height: 70px;;">
+    </div>
+  </div>
+</body>
+
+</html>
